@@ -51,11 +51,12 @@ main {
     align-items: center;
     line-height: 2rem;
 }
-#about-me {
+
+#about-me, #contact {
     grid-column: 2 / span 1;
     padding-top: 50px;
 }
-#about-me img {
+#about-me img, #contact img {
     border-radius: 50%;
     width: 200px;
     border: solid black 2px;
@@ -77,7 +78,9 @@ main {
 i {
     font-size: 2rem;
     letter-spacing: 1rem;
+    color: white;
 }
+
 footer {
     background-color: white;
     width: 100%;
@@ -95,7 +98,7 @@ footer {
     header h1 {
         display: none;
     }
-    #about-me, #projects, #skills {
+    #about-me, #projects, #skills, #contact {
         grid-column: 1 / span 3;
     }
     
